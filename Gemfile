@@ -45,7 +45,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'cowsay', '~> 0.3.0'
-  gem 'hirb'
+  # gem 'hirb'
   gem "faker" , :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 end
 
