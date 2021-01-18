@@ -1,0 +1,12 @@
+<h1>All Questions</h1>
+<!-- <% %>👈🏻 if we dont have any output we use this tag  -->
+<!-- <%#=  %> 👈🏻 To have an output we use this tag  -->
+
+<% @questions.each do |question|%>
+<div>
+<h2><%= link_to(question.title, question_path(question.id) )%></h2> 
+<%# question/id => question_path(question.id) %>
+<p> <%= question.body %></p>
+<hr>
+</div>
+<% end %>
